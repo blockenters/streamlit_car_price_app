@@ -9,7 +9,7 @@ def run_eda_app() :
 
     df = pd.read_csv('data/Car_Purchasing_Data.csv', encoding='ISO-8859-1')
 
-    st.subheader('데이터프레임 확인')
+    st.subheader('데이터 분석. 데이터프레임 확인')
     st.dataframe(df.head(3))
 
     st.subheader('기본 통계 데이터')
